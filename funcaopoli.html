@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Lexend+Peta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="funcaopolistyle.css">
+    <title>Função</title>
+</head>
+<body>
+    <h1>Gerador de Funções Polinomiais</h1>
+    <h2>ax⁵ + bx⁴ + cx³ + dx² + ex + i</h2>
+    <section>
+        <div id= innums>
+            <h3>Passo 1: Gerar função</h3>
+            <p>a: <input type="number" name="x5" id="x5"></p>
+            <p>b: <input type="number" name="x4" id="x4"></p>
+            <p>c: <input type="number" name="x3" id="x3"></p>
+            <p>d: <input type="number" name="x2" id="x2"></p>
+            <p>e: <input type="number" name="x1" id="x1"></p>
+            <p>i: <input type="number" name="ind" id="ind"></p>
+            <input type="button" value="Gerar" id="gerarbutton" onclick="gerar()">
+            <div id="showfunct"></div>
+        </div>
+
+        <div id="calcs">
+            <h3>Passo 2: Aplicar valor de X</h3>
+            <p>Digite o valor de X que deseja aplicar: </p>
+            <input type="number" name="variavel" id="variavel">
+            <p><input type="button" value="Calcular!" onclick="calcular()"></p>
+            <div id="res"></div>
+        </div>               
+    </section>
+    <script src="funcaopoliscript.js"></script>
+    <footer>Site by Rafoso</footer>
+</body>
+</html>
